@@ -3,4 +3,4 @@ TARGETS := $(filter-out $(IGNORES), $(wildcard .??*))
 
 .PHONY: all
 all:
-	$(foreach file, $(TARGETS), ln -sfn $(abspath $(file)) $(HOME)/$(val);)
+	@$(foreach file, $(TARGETS), ln -sfn $(PWD)/$(file) $(HOME)/$(file);)
