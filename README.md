@@ -1,4 +1,4 @@
 # dotfiles
 ```sh
-git clone https://github.com/prog-g/dotfiles.git && cd dotfiles && make
+git clone https://github.com/prog-g/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && make
 ```
